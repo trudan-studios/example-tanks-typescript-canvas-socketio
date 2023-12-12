@@ -68,7 +68,7 @@ export async function createClient(): Promise<Client> {
 
 async function connect(client: Client) {
 	console.log("Connecting...");
-	client.connection = new Connection(client, false, "127.0.0.1:3000", {});
+	client.connection = new Connection(client, false, "y7ptbr.edge.hathora.dev:61674", {});
 }
 
 export function getCurrentPlayer(client: Client): PlayerState | undefined {
